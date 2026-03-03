@@ -1,0 +1,138 @@
+/* Color Palette
+# - color 1: #000000 (Black Background)
+# - color 2: #1a1125 (Very Dark Purple Section)
+# - color 3: #3d2b56 (Deep Royal Purple)
+# - color 4: #a855f7 (Bright Purple Accent)
+*/
+
+body {
+    background-color: #000000;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    color: #eeeeee;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #1a1125;
+    color: #ffffff;
+    padding: 60px 20px;
+}
+
+.header-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 52px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.1;
+    color: #a855f7;
+}
+
+header h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 400;
+    color: #d8b4fe;
+    margin-top: 10px;
+}
+
+section h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #a855f7;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #d8b4fe;
+}
+
+p, li {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #cccccc;
+}
+
+li {
+    list-style-position: inside;
+}
+
+p:nth-of-type(1), p:nth-of-type(2) {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+ul {
+    padding-left: 0;
+}
+
+#work-experience, #education {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #1a1125;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    border-top: 1px solid #3d2b56;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+a {
+    color: #a855f7;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
